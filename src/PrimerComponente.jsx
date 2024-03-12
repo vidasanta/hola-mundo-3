@@ -1,4 +1,3 @@
-//import React from "react";
 const numero =23
 const texto = "Hola"
 const numero2 = 456
@@ -12,6 +11,3 @@ export const PrimerComponente = () => {
     </>
        )
 }
-
-
-
