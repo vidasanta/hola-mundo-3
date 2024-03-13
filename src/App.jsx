@@ -18,9 +18,11 @@ export default function App() {
           <Route path="/pantalla3" element={<Reloj />} />
           <Route path="/pantalla4" element={<PrimerComponente />} />
           <Route path="/pantalla5" element={
-            <div> <SegundoComponente nombre= "tony" edad ={40+1} nacionalidad="peruano" />  
-            <div> <TercerComponente nombre= "rodrigo" edad ={28} nacionalidad="colombiano" />
-            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>  
+                  <SegundoComponente nombre= "tony" edad ={40+1} nacionalidad="peruano" />  
+                  <TercerComponente nombre= "rodrigo" edad ={28} nacionalidad="colombiano" />
+                  <Reloj />
+                  <PrimerComponente />
            </div>
             }
             />
@@ -30,3 +32,5 @@ export default function App() {
     </main>
   );
 }
+
+//<div style={{ display: 'flex', justifyContent: 'space-between' }}>     Esto sirve para que todos los elmentos se alineen. En este caso se alinean los componenentes de la pantalla 5 
