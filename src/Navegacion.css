@@ -10,3 +10,12 @@
     margin-right: 10px;
     text-decoration: none;
 }
+
+// Navegacion a      
+
+//Explicación:
+
+//.Navegacion { ... }: Este selector apunta al elemento con la clase CSS Navegacion. Establece el fondo en color cian (#00ffff) y un relleno interno de 10 píxeles.
+
+//.Navegacion a { ... }: Este selector apunta a los elementos <a> (enlaces) que se encuentran dentro de un elemento con la clase Navegacion. Establece el color del texto en amarillo (#ffff00), el tamaño de fuente en 14 píxeles, la familia de fuentes en Arial y sans-serif como fallback, un margen derecho de 10 píxeles y elimina la decoración de subrayado predeterminada de los enlaces.
+

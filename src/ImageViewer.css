@@ -30,3 +30,23 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+
+/* eSTE código es una regla CSS que define los estilos para los elementos con la clase .close. Veamos qué hace cada propiedad:
+
+    color: #aaa;: Esta propiedad establece el color del texto de los elementos con la clase .close a un gris claro (el valor hexadecimal #aaa representa un tono de gris claro).
+
+    float: right;: Esta propiedad hace que los elementos con la clase .close floten hacia la derecha dentro de su contenedor. Esto se utiliza comúnmente para alinear elementos, como botones o íconos, al lado derecho de su contenedor.
+
+    font-size: 28px;: Esta propiedad establece el tamaño de fuente de los elementos con la clase .close a 28 píxeles.
+
+    font-weight: bold;: Esta propiedad hace que el texto de los elementos con la clase .close se muestre en negrita.
+
+En resumen, esta regla CSS se aplica a los elementos con la clase .close y establece los siguientes estilos:
+
+    El color del texto es un gris claro.
+    Los elementos se alinean a la derecha dentro de su contenedor.
+    El tamaño de fuente es de 28 píxeles.
+    El texto se muestra en negrita.
+
+Estas propiedades se utilizan comúnmente para dar estilo a botones de cierre o elementos similares en interfaces de usuario. Por ejemplo, en el código JSX que proporcionaste, la clase .close se aplica al botón de cierre de la ventana modal que muestra la imagen. Esto hace que el botón de cierre esté alineado a la derecha, tenga un tamaño de fuente grande y en negrita, y un color de texto gris claro.

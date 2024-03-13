@@ -12,4 +12,6 @@ export const Navegacion = () => {
     );
 }
 
+// En este ejemplo, Navegacion es un componente separado que renderiza los enlaces, y las rutas se definen dentro del componente App.
 
+//Es un componente de navegación de React Router que renderiza tres enlaces (Link) para diferentes rutas (/pantalla1, /pantalla2 y /pantalla3)
