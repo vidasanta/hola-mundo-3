@@ -11,6 +11,7 @@ import { IrPantalla3 } from './IrPantalla3'
 import { IrPantalla4 } from './IrPantalla4'
 import { GoogleLink} from './GoogleLink'
 import { ImageViewer } from './ImageViewer'
+import { IngresoTexto } from './IngresoTexto'
 
 export default function App() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
                   <IrPantalla4 />
                   <GoogleLink />
                   <ImageViewer />
+                  <IngresoTexto />
            </div>
             }
             />
