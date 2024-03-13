@@ -8,6 +8,7 @@ import { PrimerComponente } from './PrimerComponente'
 import { SegundoComponente } from './SegundoComponente'
 import { TercerComponente } from './TercerComponente'
 import { IrPantalla3 } from './IrPantalla3'
+import { IrPantalla4 } from './IrPantalla4'
 
 export default function App() {
   return (
@@ -25,6 +26,8 @@ export default function App() {
                   <Reloj />
                   <PrimerComponente />
                   <IrPantalla3 />
+                  <IrPantalla4 />
+              
            </div>
             }
             />
