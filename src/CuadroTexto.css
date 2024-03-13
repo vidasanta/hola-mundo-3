@@ -1,0 +1,18 @@
+
+
+.estado {
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.encendido {
+  background-color: green;
+  color: blue;
+}
+
+.apagado {
+  background-color: red;
+  color: yellow;
+}
