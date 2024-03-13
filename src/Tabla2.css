@@ -1,0 +1,22 @@
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #f8f9fa; /* Fondo de los encabezados */
+  color: #ff8000; /* Letra de los encabezados */
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #00ff40; /* Líneas de los encabezados */
+}
+
+.table td {
+  background-color: #ffffff; /* Fondo de las celdas */
+  color: #0000ff; /* Letra de las celdas */
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ff80ff; /* Líneas de las celdas */
+}

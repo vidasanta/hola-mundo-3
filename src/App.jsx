@@ -17,8 +17,16 @@ import {ImageZoom } from './ImageZoom'
 import { TextoVerdeRojo } from './TextoVerdeRojo'
 import { CuadroTexto } from './CuadroTexto'
 import { BotonToogle } from './BotonToogle'
+import { Tabla } from './Tabla'
 //const datito = true   si usamos esto tendriamos que hacer :  <Route path="/pantalla9" element={<TextoVerdeRojo datito={datito } />} />
 const datito2 = false
+import { Tabla2 } from './Tabla2'
+const headers = ['Encabezado 1', 'Encabezado 2', 'Encabezado 3']
+const data = [
+  ['Celda 1', 'Celda 2', 'Celda 3'],
+  ['Celda 4', 'Celda 5', 'Celda 6'],
+  ['Celda 7', 'Celda 8', 'Celda 9']
+  ]
 
 export default function App() {
   return (
@@ -49,6 +57,11 @@ export default function App() {
           <Route path="/pantalla9" element={<TextoVerdeRojo datito={false} />} />
           <Route path="/pantalla10" element={<CuadroTexto señal={datito2} />} />
           <Route path="/pantalla11" element={<BotonToogle />} />
+          <Route path="/pantalla12" element={<Tabla filas={5} columnas={3} />} />
+          <Route path="/pantalla13" element={ <Tabla2
+            headers={headers}
+            data={data}
+          />} />
         </Routes>
       </Router>
     </main>
