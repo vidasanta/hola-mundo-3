@@ -1,0 +1,14 @@
+.zoom-container {
+  overflow: hidden;
+  --scale: 1.2; /* Valor por defecto */
+}
+
+.zoom-image {
+  transition: transform 0.5s ease;
+  width: 50%;
+  height: auto;
+}
+
+.zoom-container:hover .zoom-image {
+  transform: scale(var(--scale));
+}

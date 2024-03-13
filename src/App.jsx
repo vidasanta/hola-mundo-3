@@ -13,6 +13,9 @@ import { GoogleLink} from './GoogleLink'
 import { ImageViewer } from './ImageViewer'
 import { IngresoTexto } from './IngresoTexto'
 import { Navegacion } from './Navegacion'
+import {ImageZoom } from './ImageZoom'
+import { TextoVerdeRojo } from './TextoVerdeRojo'
+//const datito = true   si usamos esto tendriamos que hacer :  <Route path="/pantalla9" element={<TextoVerdeRojo datito={datito } />} />
 
 export default function App() {
   return (
@@ -39,8 +42,8 @@ export default function App() {
             />
           <Route path="/pantalla6" element={<TercerComponente nombre= "carlos" edad ={30} nacionalidad="uruguayo" />} />
           <Route path="/pantalla7" element={<Navegacion />} />
-
-          
+          <Route path="/pantalla8" element={<ImageZoom src="https://wallpapers.com/images/high/4k-blue-minimalist-deer-5fc2dalaakntatt7.jpg" scale={1.5} />} />
+          <Route path="/pantalla9" element={<TextoVerdeRojo datito={false} />} />
         </Routes>
       </Router>
     </main>
