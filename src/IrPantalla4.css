@@ -1,9 +1,9 @@
 .boton-pantalla4 {
   background-color: red;
   color: blue;
-  padding: 10px 20px;
+  padding: 40px 40px;
   border: none;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
 }
