@@ -1,0 +1,12 @@
+.Navegacion {
+    background-color: #00ffff;
+    padding: 50px;
+}
+
+.Navegacion a {
+    color: #ffff00;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-right: 10px;
+    text-decoration: none;
+}

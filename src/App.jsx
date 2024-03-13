@@ -12,6 +12,7 @@ import { IrPantalla4 } from './IrPantalla4'
 import { GoogleLink} from './GoogleLink'
 import { ImageViewer } from './ImageViewer'
 import { IngresoTexto } from './IngresoTexto'
+import { Navegacion } from './Navegacion'
 
 export default function App() {
   return (
@@ -37,6 +38,9 @@ export default function App() {
             }
             />
           <Route path="/pantalla6" element={<TercerComponente nombre= "carlos" edad ={30} nacionalidad="uruguayo" />} />
+          <Route path="/pantalla7" element={<Navegacion />} />
+
+          
         </Routes>
       </Router>
     </main>
