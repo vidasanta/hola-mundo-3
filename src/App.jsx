@@ -7,6 +7,7 @@ import { PokeAbility } from './PokeAbility'
 import { PrimerComponente } from './PrimerComponente'
 import { SegundoComponente } from './SegundoComponente'
 import { TercerComponente } from './TercerComponente'
+import { IrPantalla3 } from './IrPantalla3'
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
                   <TercerComponente nombre= "rodrigo" edad ={28} nacionalidad="colombiano" />
                   <Reloj />
                   <PrimerComponente />
+                  <IrPantalla3 />
            </div>
             }
             />
