@@ -4,10 +4,10 @@
 import React from 'react';
 import './CuadroTexto.css'; // Importa el archivo CSS
 
-export const CuadroTexto = ({ datito2 }) => {
+export const CuadroTexto = ({ señal }) => {
   return (
-    <div className={`estado ${datito2 ? 'encendido' : 'apagado'}`}>
-      {datito2 ? 'ENCENDIDO' : 'APAGADO'}
+    <div className={`estado ${señal ? 'encendido' : 'apagado'}`}>
+      {señal ? 'ENCENDIDO' : 'APAGADO'}
     </div>
   );
 };
