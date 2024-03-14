@@ -33,6 +33,7 @@ import { Video } from './Video'
 import { VideoYoutube } from './VideoYoutube'
 import { Card } from './Card'
 import { TextoIcono } from './TextoIcono'
+import { OperadorTernario } from './OperadorTernario'
 
 
 
@@ -94,6 +95,7 @@ export default function App() {
             tipoLetra="Arial"
             nombreIcono="mdi-light:alarm"
           />} />
+          <Route path="/pantalla19" element={<OperadorTernario isAuthUser={true}/>} />
            </Routes>
       </Router>
     </main>
