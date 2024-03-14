@@ -18,7 +18,7 @@ import { TextoVerdeRojo } from './TextoVerdeRojo'
 import { CuadroTexto } from './CuadroTexto'
 import { BotonToogle } from './BotonToogle'
 import { Tabla } from './Tabla'
-//const datito = true   si usamos esto tendriamos que hacer :  <Route path="/pantalla9" element={<TextoVerdeRojo datito={datito } />} />
+{/*const datito = true   si usamos esto tendriamos que hacer :  <Route path="/pantalla9" element={<TextoVerdeRojo datito={datito } />} />  */}
 
 const datito2 = false
 import { Tabla2 } from './Tabla2'
@@ -32,6 +32,7 @@ const data = [
 import { Video } from './Video'
 import { VideoYoutube } from './VideoYoutube'
 import { Card } from './Card'
+import { TextoIcono } from './TextoIcono'
 
 
 
@@ -85,10 +86,17 @@ export default function App() {
               width="150px"
               backgroundColor="#ccccc"
           />} />
-        </Routes>
+          <Route path="/pantalla18" element={<TextoIcono
+            texto="hola"
+            tamanoIcono={32}
+            tamanoLetra="16px"
+            colorLetra="#000000"
+            tipoLetra="Arial"
+            nombreIcono="mdi-light:home"
+          />} />
+           </Routes>
       </Router>
     </main>
   );
 }
 
-//<div style={{ display: 'flex', justifyContent: 'space-between' }}>     Esto sirve para que todos los elmentos se alineen. En este caso se alinean los componenentes de la pantalla 5 
