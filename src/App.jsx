@@ -31,6 +31,9 @@ const data = [
 
 import { Video } from './Video'
 import { VideoYoutube } from './VideoYoutube'
+import { Card } from './Card'
+
+
 
 export default function App() {
   return (
@@ -74,6 +77,14 @@ export default function App() {
            />} />
           <Route path="/pantalla15" element={<ImageViewer />} />
           <Route path="/pantalla16" element={<VideoYoutube videoUrl="https://www.youtube.com/watch?v=Z9Lghe4VYk4X" />} />
+          <Route path="/pantalla17" element={<Card 
+              title="Título de la tarjeta"
+              image="https://wallpapers.com/images/high/4k-blue-minimalist-deer-5fc2dalaakntatt7.jpg"
+              description="Descripción de la tarjeta"
+              height="150px"
+              width="150px"
+              backgroundColor="#ccccc"
+          />} />
         </Routes>
       </Router>
     </main>
