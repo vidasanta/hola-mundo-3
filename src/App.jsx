@@ -43,7 +43,7 @@ const products = [
 ]
 
 import { CounterUserReducer } from './CounterUserReducer'
-
+import { TextTareaOnSubmit } from './TextTareaOnSubmit'
 
 export default function App() {
   return (
@@ -106,6 +106,7 @@ export default function App() {
           <Route path="/pantalla19" element={<OperadorTernario isAuthUser={true}/>} />
           <Route path="/pantalla20" element={<Wishlist products={products} />} />
           <Route path="/pantalla21" element={<CounterUserReducer />} />
+          <Route path="/pantalla22" element={<TextTareaOnSubmit />} />
            </Routes>
       </Router>
     </main>
