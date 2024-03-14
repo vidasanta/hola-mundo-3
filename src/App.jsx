@@ -56,7 +56,7 @@ export default function App() {
             />
           <Route path="/pantalla6" element={<TercerComponente nombre= "carlos" edad ={30} nacionalidad="uruguayo" />} />
           <Route path="/pantalla7" element={<Navegacion />} />
-          <Route path="/pantalla8" element={<ImageZoom src="https://wallpapers.com/images/high/4k-blue-minimalist-deer-5fc2dalaakntatt7.jpg" scale={1.5} />} />
+          <Route path="/pantalla8" element={<ImageZoom src="https://wallpapers.com/images/high/4k-blue-minimalist-deer-5fc2dalaakntatt7X.jpg" scale={1.5} />} />
           <Route path="/pantalla9" element={<TextoVerdeRojo datito={false} />} />
           <Route path="/pantalla10" element={<CuadroTexto señal={datito2} />} />
           <Route path="/pantalla11" element={<BotonToogle />} />
@@ -66,11 +66,12 @@ export default function App() {
             data={data}
           />} />
            <Route path="/pantalla14" element={<Video
-             videoUrl="https://triviaattack.s3.ca-central-1.amazonaws.com/Opening001.mp4"
+             videoUrl="https://triviaattack.s3.ca-central-1.amazonaws.com/Opening001X.mp4"
              width="640"
              height="360"
              backgroundColor = "bg-dark"
            />} />
+          <Route path="/pantalla15" element={<ImageViewer />} />
         </Routes>
       </Router>
     </main>

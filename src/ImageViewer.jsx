@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export const ImageViewer = () => {
   const [showModal, setShowModal] = useState(false);
-  const imageUrl = 'https://wallpapers.com/images/high/4k-blue-minimalist-deer-5fc2dalaakntatt7.jpg';
+  const imageUrl = 'https://wallpapers.com/images/high/4k-blue-minimalist-deer-5fc2dalaakntatt7X.jpg';
 
   const handleShowModal = () => {
     setShowModal(true);
