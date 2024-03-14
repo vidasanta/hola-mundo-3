@@ -34,6 +34,16 @@ import { VideoYoutube } from './VideoYoutube'
 import { Card } from './Card'
 import { TextoIcono } from './TextoIcono'
 import { OperadorTernario } from './OperadorTernario'
+import { Wishlist } from './Wishlist'
+
+const products = [
+    { id: 1, name: 'Producto 1' },
+    { id: 2, name: 'Producto 2' },
+    { id: 3, name: 'Producto 3' },
+]
+
+
+
 
 
 
@@ -96,6 +106,8 @@ export default function App() {
             nombreIcono="mdi-light:alarm"
           />} />
           <Route path="/pantalla19" element={<OperadorTernario isAuthUser={true}/>} />
+          <Route path="/pantalla20" element={<Wishlist products={products} />} />
+
            </Routes>
       </Router>
     </main>
