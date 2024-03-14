@@ -30,6 +30,7 @@ const data = [
   ]
 
 import { Video } from './Video'
+import { VideoYoutube } from './VideoYoutube'
 
 export default function App() {
   return (
@@ -72,6 +73,7 @@ export default function App() {
              backgroundColor = "bg-dark"
            />} />
           <Route path="/pantalla15" element={<ImageViewer />} />
+          <Route path="/pantalla16" element={<VideoYoutube videoUrl="https://www.youtube.com/watch?v=Z9Lghe4VYk4X" />} />
         </Routes>
       </Router>
     </main>
