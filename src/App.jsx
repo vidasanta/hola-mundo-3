@@ -19,6 +19,7 @@ import { CuadroTexto } from './CuadroTexto'
 import { BotonToogle } from './BotonToogle'
 import { Tabla } from './Tabla'
 //const datito = true   si usamos esto tendriamos que hacer :  <Route path="/pantalla9" element={<TextoVerdeRojo datito={datito } />} />
+
 const datito2 = false
 import { Tabla2 } from './Tabla2'
 const headers = ['Encabezado 1', 'Encabezado 2', 'Encabezado 3']
@@ -27,6 +28,8 @@ const data = [
   ['Celda 4', 'Celda 5', 'Celda 6'],
   ['Celda 7', 'Celda 8', 'Celda 9']
   ]
+
+import { Video } from './Video'
 
 export default function App() {
   return (
@@ -62,6 +65,12 @@ export default function App() {
             headers={headers}
             data={data}
           />} />
+           <Route path="/pantalla14" element={<Video
+             videoUrl="https://triviaattack.s3.ca-central-1.amazonaws.com/Opening001.mp4"
+             width="640"
+             height="360"
+             backgroundColor = "bg-dark"
+           />} />
         </Routes>
       </Router>
     </main>
