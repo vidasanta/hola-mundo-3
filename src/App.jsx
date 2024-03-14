@@ -88,11 +88,11 @@ export default function App() {
           />} />
           <Route path="/pantalla18" element={<TextoIcono
             texto="hola"
-            tamanoIcono={32}
+            tamanoIcono={80}
             tamanoLetra="16px"
-            colorLetra="#000000"
+            colorLetra="red"
             tipoLetra="Arial"
-            nombreIcono="mdi-light:home"
+            nombreIcono="mdi-light:alarm"
           />} />
            </Routes>
       </Router>
@@ -100,3 +100,10 @@ export default function App() {
   );
 }
 
+{/*  
+<div style={{ display: 'flex', justifyContent: 'space-between' }}>     Esto sirve para que todos los elmentos se alineen. En este caso se alinean los componenentes de la pantalla 5 
+*/}
+
+{/*  
+En este caso hemos utilizado el icono mdi-light:alarm  , se pudo haber utilizado el icono icono mdi-light:home 
+*/}
