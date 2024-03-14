@@ -42,9 +42,7 @@ const products = [
     { id: 3, name: 'Producto 3' },
 ]
 
-
-
-
+import { CounterUserReducer } from './CounterUserReducer'
 
 
 export default function App() {
@@ -107,7 +105,7 @@ export default function App() {
           />} />
           <Route path="/pantalla19" element={<OperadorTernario isAuthUser={true}/>} />
           <Route path="/pantalla20" element={<Wishlist products={products} />} />
-
+          <Route path="/pantalla21" element={<CounterUserReducer />} />
            </Routes>
       </Router>
     </main>
