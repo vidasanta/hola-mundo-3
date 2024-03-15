@@ -1,3 +1,4 @@
+
 import './App.css'
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
@@ -45,12 +46,18 @@ const products = [
 import { CounterUserReducer } from './CounterUserReducer'
 import { TextTareaOnSubmit } from './TextTareaOnSubmit'
 
+
+import Informacion from './Informacion';
+import { useState } from 'react';
+
+
 export default function App() {
+  const [numeral, setNumeral] = useState(11); // Inicializamos numeral con el valor 42
   return (
     <main>
       <Router>
         <Routes>
-          <Route path="/" element={<Counter />} />
+          <Route path="/" element={<Informacion numeral={numeral} />} />
           <Route path="/pantalla2" element={<PokeAbility abilityId="6" />} />
           <Route path="/pantalla3" element={<Reloj />} />
           <Route path="/pantalla4" element={<PrimerComponente />} />
@@ -107,10 +114,15 @@ export default function App() {
           <Route path="/pantalla20" element={<Wishlist products={products} />} />
           <Route path="/pantalla21" element={<CounterUserReducer />} />
           <Route path="/pantalla22" element={<TextTareaOnSubmit />} />
+          <Route path="/pantalla23" element={<Counter />} />
            </Routes>
       </Router>
+
+
     </main>
+
   );
+
 }
 
 {/*  
@@ -119,4 +131,9 @@ export default function App() {
 
 {/*  
 En este caso hemos utilizado el icono mdi-light:alarm  , se pudo haber utilizado el icono icono mdi-light:home 
+*/}
+
+
+{/*  
+Mediante el componente Informacion.jsx recibimos la variable llamada numeral desde la app.jsx  y devolvemos el cuadrado de dicho numeral
 */}
